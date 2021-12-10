@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    background-image: url(./plano-de-fundo.png);
+    background-size: 50%;
+  
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+  
+  #verde {
+    margin-top: 64px;
+  
+    width: 80%;
+    height: 512px;
+    display: flex;
+    
+    background-image: url(./reino.png);
+    background-repeat: no-repeat;
+    
+    border-radius: 32px;
+  }
+  
+  .roxo {
+    width: 50%;
+  }
+  
+  .roxo img {
+    width: 100%;
+  }
+  
+  .roxo h1,
+  .roxo p,
+  .roxo a {
+    color: white;
+  }
+  
+  .roxo h1 {
+    text-align: center;
+  }
+  
+  .roxo:first-child {
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+  
+    padding-left: 64px;
+  }
